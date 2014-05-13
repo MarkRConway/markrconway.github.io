@@ -1,36 +1,3 @@
-<!doctype html>
-<html>
-<head>
-  <title>SPA Starter</title>
-
-  <!-- stylesheets -->
-  <link rel="stylesheet" href="css/spa.css" type="text/css"/>
-  <link rel="stylesheet" href="css/spa.shell.css" type="text/css"/>
-
-  <!-- third-party javascript -->
-  <script src="js/jq/jquery-1.9.1.js"          ></script>
-  <script src="js/jq/jquery.uriAnchor-1.1.3.js"></script>
-
-  <!-- our javascript -->
-  <script src="js/spa.js"      ></script>
-  <script src="js/spa.shell.js"></script>
-  <script>
-    $(function () { spa.initModule( $('#spa') ); });
-  </script>
-
-</head>
-<body>
-
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NWJTMR"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NWJTMR');</script>
-<!-- End Google Tag Manager -->
-
 <script>
 var EndaiGaEventTracker = {
 	debug_enabled: true,
@@ -352,7 +319,3 @@ EndaiGaEventTracker.track();
 
 });
 </script>
-
-<div id="spa"></div>
-</body>
-</html>
